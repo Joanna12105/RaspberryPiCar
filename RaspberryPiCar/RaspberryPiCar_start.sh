@@ -11,10 +11,10 @@ cleanup() {
 trap cleanup SIGINT SIGTERM
 
 
-python3 /home/hshl/picar/SunFounder_PiCar-V/remote_control/remote_control/RaspberryPiCar_remote_car.py &
+python3 ../picar/SunFounder_PiCar-V/remote_control/remote_control/RaspberryPiCar_remote_car.py &
 # 32-bit floating-point values
-# python3 /home/hshl/tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=/home/hshl/tflite1/custom_model_lite
+# python3 ../tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=../tflite1/custom_model_lite
 # 8-bit integer values
-# python3 /home/hshl/tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=/home/hshl/tflite1/custom_model_lite --graph=detect_quant.tflite
+# python3 ../tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=../tflite1/custom_model_lite --graph=detect_quant.tflite
 # 8-bit integer values compiled to run on Edge TPU
-python3 /home/hshl/tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=/home/hshl/tflite1/custom_model_lite --edgetpu
+python3 ../tflite1/Rieger_TFLite_detection_webcam_send_Video.py --modeldir=../tflite1/custom_model_lite --edgetpu
