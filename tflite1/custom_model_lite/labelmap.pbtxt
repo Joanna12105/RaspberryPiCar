@@ -1,0 +1,25 @@
+item {
+  id: 1
+  name: 'red_light'
+}
+
+item {
+  id: 2
+  name: 'green_light'
+}
+
+item {
+  id: 3
+  name: '50_speed_limit'
+}
+
+item {
+  id: 4
+  name: '30_speed_limit'
+}
+
+item {
+  id: 5
+  name: 'no_passage'
+}
+

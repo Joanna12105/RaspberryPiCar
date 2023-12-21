@@ -1,0 +1,5 @@
+red_light
+green_light
+50_speed_limit
+30_speed_limit
+no_passage
